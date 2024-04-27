@@ -1,3 +1,44 @@
+##Employee Scheduling System
+This project is a frontend implementation of an employee scheduling system using SPA framework. It caters to both administrators and employees, providing functionalities for user management, authentication, availability management, shift management, schedule viewing, and management, with a focus on user interface and user experience.
+
+##Installation Instructions
+To run the project locally, follow these steps:
+
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/madhuriawatade2024/employee-scheduling-system.git
+Navigate to the project directory:
+bash
+Copy code
+cd your-project-directory
+Install dependencies:
+bash
+Copy code
+npm install
+Building Instructions
+To build and run the project:
+
+Start the development server:
+bash
+Copy code
+npm start yarn
+Open your browser and navigate to http://localhost:3000 to view the application.
+Functionality Overview
+
+1. User Management & Authentication
+   Implemented user login functionality, distinguishing between different user roles (admin vs. employee).
+   Optionally, allow basic user management such as profile editing for employees.
+   Ensure secure user authentication and session management.
+2. Employee Availability
+   Designed a user interface for employees to define their availability (time slots) for different days of the week.
+   Consider options for recurring availability patterns, such as being available every Monday from 9 AM to 5 PM.
+   Allow for easy updates and management of employee availability.
+3. Shift Management
+   Provided functionalities for administrators to create new shifts, specifying start and end times, required skills or roles, and optionally the associated department or team.
+   Implement a visual calendar or scheduling grid for displaying available shifts and assigned employees.
+   Optionally, enable drag-and-drop functionality or intuitive selection for assigning employees to shifts.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
